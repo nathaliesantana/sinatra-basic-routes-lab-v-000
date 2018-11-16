@@ -7,17 +7,17 @@ class App < Sinatra::Base
   end
 
   get "/name" do
-    status:200
+    status = 200
     "My name is "
   end
 
   get "/hometown" do
-    status:200
+    status = 200
     "My hometown is "
   end
 
   get "/favorite-song" do
-    status:200
+    status = 200
     "My favorite song is  "
   end
 
